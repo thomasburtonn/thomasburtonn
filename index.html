@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracelet Co. Manufacturing</title>
+    <style>
+        /* Simple Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 20px;
+        }
+
+        header h1{
+            padding-left: 3.3rem;
+        }
+
+        header ul{
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+
+        header li{
+            padding: 0 1rem;
+        }
+
+        header li a{
+            text-decoration: none;
+            color: white;
+        }
+        header li a:hover{
+            color: rgb(135, 120, 220);
+        }
+
+        section.content {
+            padding: 40px;
+        }
+
+        section.content h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .products {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            min-width: 200px;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .product img{
+            width: 250px;
+        }
+
+        .product:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Ole Medio</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li></li>
+    </ul>
+</header>
+
+<!-- Content Section -->
+<section class="content">
+    <h2>Contact for manufacturing</h2>
+    <div class="products">
+        <!-- Product 1 -->
+        <div class="product">
+            <h3>Metal Bracelets</h3>
+            <img src="/bracelet-1.png" alt="" srcset="">
+            <p>DA symphony of style and simplicity, perfect for any occasion. Handcrafted with love.</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <h3>Custom Bracelets</h3>
+            <img src="/bracelet-2.png" alt="" srcset="">
+            <p>Elegantly crafted to grace your wrist with timeless charm. Premium quality materials.</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <h3>Golden Bracelets</h3>
+            <img src="/bracelet-3.png" alt="" srcset="">
+            <p>Crafted for comfort, designed to dazzle. Elegant design for every occasion.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>© 2023 Ole Medio Limited. All Rights Reserved.</p>
+    <p>16 Clench St, Southampton SO14 3GB, UK</p>
+</footer>
+
+</body>
+</html>
